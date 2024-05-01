@@ -1,0 +1,110 @@
+{
+  "start": "2024-05-01T14:23:50.259Z",
+  "end": "2024-05-01T14:26:19.907Z",
+  "capabilities": {
+    "platformName": "Android",
+    "deviceName": "s4bi99ukwot44pby",
+    "platformVersion": "13",
+    "orientation": "PORTRAIT",
+    "automationName": "UiAutomator2",
+    "app": "test/android/app/Klik Indomaret Xtra_1.3.11_Apkpure.apk",
+    "appLaunchTimeout": 30000,
+    "appWaitPackage": "edts.klik.android",
+    "appWaitDuration": 30000,
+    "newCommandTimeout": 1000,
+    "autoGrantPermissions": true,
+    "fullReset": false,
+    "noReset": true,
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "deviceName": "es4bi99ukwot44pby",
+      "platformVersion": "13",
+      "orientation": "PORTRAIT",
+      "automationName": "UiAutomator2",
+      "app": "test/android/app/Klik Indomaret Xtra_1.3.11_Apkpure.apk",
+      "appLaunchTimeout": 30000,
+      "appWaitPackage": "edts.klik.android",
+      "appWaitDuration": 30000,
+      "newCommandTimeout": 1000,
+      "autoGrantPermissions": true,
+      "fullReset": false,
+      "noReset": true
+    },
+    "deviceUDID": "s4bi99ukwot44pby",
+    "appPackage": "edts.klik.android",
+    "pixelRatio": "2.75",
+    "statBarHeight": 76,
+    "viewportRect": {
+      "left": 0,
+      "top": 76,
+      "width": 1080,
+      "height": 2332
+    },
+    "deviceApiLevel": 33,
+    "deviceManufacturer": "Xiaomi",
+    "deviceModel": "22071219CG",
+    "deviceScreenSize": "1080x2408",
+    "deviceScreenDensity": 440,
+    "sessionId": "9829198c-56c9-45ec-a365-c633a7f0b834"
+  },
+  "host": "127.0.0.1",
+  "port": 4723,
+  "baseUrl": "",
+  "framework": "mocha",
+  "mochaOpts": {
+    "timeout": 300000,
+    "grep": "@transaction",
+    "ui": "bdd"
+  },
+  "duration": 149648,
+  "suites": [
+    {
+      "title": "Klik Indomaret Transaction with Virtual Account",
+      "duration": 144456,
+      "start": "2024-05-01T14:23:55.267Z",
+      "end": "2024-05-01T14:26:19.723Z",
+      "tests": [
+        {
+          "title": "Validate Transaction with BCA Virtual Account @transaction @regression",
+          "start": "2024-05-01T14:23:55.268Z",
+          "end": "2024-05-01T14:26:04.410Z",
+          "duration": 129142,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": [
+        {
+          "start": "2024-05-01T14:23:55.268Z",
+          "end": "2024-05-01T14:24:00.451Z",
+          "duration": 5183,
+          "title": "\"before each\" hook: wrappedHook for \"Validate Transaction with BCA Virtual Account @transaction @regression\"",
+          "associatedSuite": ""
+        },
+        {
+          "start": "2024-05-01T14:26:04.411Z",
+          "end": "2024-05-01T14:26:19.723Z",
+          "duration": 15312,
+          "title": "\"after each\" hook: wrappedHook for \"Validate Transaction with BCA Virtual Account @transaction @regression\"",
+          "associatedSuite": ""
+        }
+      ]
+    }
+  ],
+  "specs": [
+    "file:///Users/wahyumaulana/android-api-automation-test/test/android/specs/transactions.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}

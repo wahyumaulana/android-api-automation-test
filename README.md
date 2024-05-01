@@ -41,3 +41,7 @@ $ npm run api
 ```
 
 ### Test Result
+- Mobile
+  ![Mobile](https://github.com/wahyumaulana/android-api-automation-test/blob/master/reports/report.png)
+- API
+  ![API](https://github.com/wahyumaulana/android-api-automation-test/blob/master/reports/api-report.png)
